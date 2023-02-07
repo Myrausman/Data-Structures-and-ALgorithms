@@ -1,9 +1,11 @@
 import sys
 sys.path.append('../')
 from multidimensionalarray import MultiArray
-
-multiArray = MultiArray(2,2,2)
-for i in range(2):
-    for j in range(2):
-        for k in range(2):
+a=2
+b=2
+c=3
+multiArray = MultiArray(a,b,c)
+for i in range(a):
+    for j in range(b):
+        for k in range(c):
             multiArray[i,j,k]=int(input('Enter value (%i,%i,%i)'%(i,j,k)))

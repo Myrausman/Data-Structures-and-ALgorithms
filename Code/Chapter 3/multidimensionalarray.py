@@ -1,6 +1,7 @@
 #implementation of multiarray ADT using 1-D array
 import sys
 sys.path.append('../')
+
 from Chapter2.myarray import Array
 class MultiArray:
     def __init__(self, *dimensions):
